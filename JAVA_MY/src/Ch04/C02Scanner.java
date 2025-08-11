@@ -18,6 +18,8 @@ public class C02Scanner {
 	
 		System.out.println("문자열 입력 :");
 		String str=sc.next();
+		sc.nextLine();		//초기화 역할
+		String str1=sc.nextLine();	
 		System.out.println("입력된 문자열 : "+str);
 		
 		System.out.println("입력 : ");
@@ -29,6 +31,8 @@ public class C02Scanner {
 		System.out.println("문자열 입력(띄어쓰기 포함) :");
 		String str2=sc.nextLine();
 		System.out.println("문자열 : "+str2);
+		
+		sc.close();
 	}
 
 }
