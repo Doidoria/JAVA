@@ -18,9 +18,10 @@ public class C03Scanner {
 		int age=sc.nextInt();
 		System.out.printf("%s 님의 주소를 입력하세요? ",name);
 		sc.nextLine();
-		String sub=sc.nextLine();
-		System.out.printf("%s 님의 나이는 %d세 주소는 %s 입니다.\n",name,age,sub);
+		String addr=sc.nextLine();
+		System.out.printf("%s 님의 나이는 %d세, 주소는 %s 입니다.\n",name,age,addr);
 	
+		sc.close();
 	}
 
 }
