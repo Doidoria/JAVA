@@ -1,9 +1,19 @@
-package Ch08;
+package Ch01;
 
-public class C01Main {
+class C02Person {
+
+	public String name;
+	public int age;
+	public float height;
+	public double weight;
+	
+}
+
+public class C02PersonMain {
 
 	public static void main(String[] args) {
-		C01Person hong=new C01Person();
+		
+		C02Person hong=new C02Person();
 		hong.name="홍길동";
 		hong.age=15;
 		hong.height=177.5f;

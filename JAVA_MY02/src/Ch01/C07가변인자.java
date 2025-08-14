@@ -1,4 +1,4 @@
-package Ch08;
+package Ch01;
 
 class C07Simple{
 	

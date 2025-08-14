@@ -1,4 +1,4 @@
-package Ch08;
+package Ch01;
 
 public class C01Person {
 	//속성

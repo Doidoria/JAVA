@@ -1,4 +1,4 @@
-package Ch08;
+package Ch01;
 
 class C03Person{
 	//속성
@@ -16,10 +16,10 @@ class C03Person{
 		System.out.printf("%s %d %f %f\n",this.name,this.age,this.height,this.weight);
 	}
 	
-	//객체정보 확인(toString)
+	//toString() - 우클릭 Source
 	@Override
 	public String toString() {
-		return "CO3Person [name="+name+", age="+age+", height="+height+", weight="+weight+"]";
+		return "C03Person [name=" + name + ", age=" + age + ", height=" + height + ", weight=" + weight + "]";
 	}
 }
 
