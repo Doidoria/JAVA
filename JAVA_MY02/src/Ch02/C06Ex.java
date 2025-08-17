@@ -7,6 +7,7 @@ class Profile{
 	String job;
 	String major;
 	
+	
 	//생성자
 	//1)디폴트생성자 삽입
 	public Profile() {}
@@ -19,8 +20,8 @@ class Profile{
 		this.job = job;
 		this.major = major;
 	}
-	
-	//3)모든 인자 받는 생성자 삽입 -> , 를 기준으로 잘라내어 각속성에 저장
+
+	//3)모든 인자 받는 생성자 삽입 -> (가변인자) , 를 기준으로 잘라내어 각속성에 저장
 	//ex, "홍길동,대구,프로그래머,컴퓨터공학" ->[홍길동,대구,프로그래머,컴퓨터공학]
 	public Profile(String ...args) {
 		this.name=args[0];
@@ -73,9 +74,7 @@ class Profile{
 	
 	//3) boolean isContain(String findstr) 함수 완성하기
 	boolean isContain(String findstr) {
-		//findstr의 문자열이 각멤버인 name,addr,job,major 중 하나라도 포함되어 있으면 true 리턴
-		//아니면 false 리턴
-		if(this.name.contains(findstr)) {
+		if(this.name.contains(findstr)){
 			return true;
 		} else if(this.addr.contains(findstr)) {
 			return true;
@@ -92,16 +91,14 @@ class Profile{
 		//아니면 false 를 리턴
 	boolean isEquals(String str) {
 		String [] arr=str.split(",");
-		if(
-			arr[0].equals(this.name)&&
+		if(arr[0].equals(this.name)&&
 			arr[1].equals(this.addr)&&
 			arr[2].equals(this.job)&&
-			arr[3].equals(this.major)
-				) {
+			arr[3].equals(this.major)) 
+		{
 			return true;
-		} else {
+		} else
 			return false;
-		}
 	}
 	
 }
