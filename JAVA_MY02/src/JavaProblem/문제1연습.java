@@ -1,47 +1,23 @@
 package JavaProblem;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class 문제1 {
+public class 문제1연습 {
 	
 	private static Scanner sc=new Scanner(System.in);
 	private static List<String> wordList=new ArrayList<String>();
 	
 	public static void sort(boolean isAsend) {
-		if(isAsend) {
-			Collections.sort(wordList);
-			System.out.println("오름차순 정렬 실행 완료");
-		} else {
-			Collections.sort(wordList, Collections.reverseOrder());
-			System.out.println("내림차순 정렬 실행 완료");
-		}
+		
 	}
 	public static void add(String word) {
-		if (wordList.isEmpty()) {
-	        System.out.println("리스트가 비어있습니다.");
-	        return;
-	    }
-		if(wordList.contains(word)) {
-			System.out.println(word+" 은(는) 이미 존재합니다!");
-	    } else {
-	        wordList.add(word);
-	        System.out.println(word+" 단어 추가 완료!");
-	    }
+		
 	}
 	public static void show() {
-		if(wordList.isEmpty()) {
-			System.out.println("리스트가 비어있습니다.");
-		} else {
-			System.out.println("┏━━━━━ 리스트 목록 ↓ ━━━━━┓");
-			for(String word : wordList) {
-				System.out.printf("\t %s\n",word);
-			}
-			System.out.println("┗━━━━━━━━━━━━━━━━━━━━━━┛");
-		}
+		
 	}
 
 	public static void main(String[] args) {
