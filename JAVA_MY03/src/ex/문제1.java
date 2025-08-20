@@ -1,4 +1,4 @@
-package JavaProblem;
+package ex;
 
 import java.util.ArrayList;
 import java.util.Collections;
