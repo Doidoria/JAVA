@@ -11,6 +11,7 @@ interface Remocon{
 	//vol값이 100을초과할때는 최대볼륨값으로 적용(print : 최대볼륨으로 설정합니다)
 	//vol값이 0미만일때는 최소볼륨값으로 적용(print : 최소볼륨으로 설정합니다
 	//0<=vol<=100 사이이면 멤버변수 vol에 저장해주시고 현재볼륨을 출력해줍니다(print : 현재볼륨 : n)
+	
 	void powerOn();		//abstract function
 	void powerOff();	//abstract function
 }
