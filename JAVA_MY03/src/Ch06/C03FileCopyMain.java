@@ -8,7 +8,7 @@ import java.io.Writer;
 
 public class C03FileCopyMain {
 	
-	private static String PATH="C:\\Users\\Administrator\\Downloads\\IOTEST\\";
+	private static String PATH="c:\\IOTEST\\";
 
 	public static void main(String[] args) throws IOException {
 		for(String arg : args)

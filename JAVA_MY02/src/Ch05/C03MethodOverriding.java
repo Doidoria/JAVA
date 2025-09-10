@@ -46,7 +46,7 @@ public class C03MethodOverriding {
 		cat.sound();
 		
 		System.out.println("--------------");
-		animal=dog;			//상위클래스 참조변수 = 하위 객체 Dog 연결
+		animal=dog;			//상위클래스 참조변수 = 하위 객체 Dog 연결 (UPCasting)
 		animal.sound();
 		animal=cat;			//상위클래스 참조변수 = 하위 객체 Cat 연결
 		animal.sound();
